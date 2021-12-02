@@ -16,13 +16,15 @@ function calcArea(base, height) {
 }
 
 // Desafio 3
-function splitSentence() {
-  // seu código aqui
+function splitSentence(frase) {
+  let result = frase.split(" ");
+  return result;
 }
 
 // Desafio 4
-function concatName() {
-
+let arrayString = ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'];
+function concatName(arrayString) {
+ /**declara a primeira e a ultima e "soma as duas." */
 }
 
 // Desafio 5
