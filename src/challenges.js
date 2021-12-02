@@ -9,8 +9,10 @@ function compareTrue(valor1, valor2) {
 }
 
 // Desafio 2
-function calcArea() {
+function calcArea(base, height) {
+  let areaTri = ((base*height)/2);
   
+  return areaTri
 }
 
 // Desafio 3
@@ -20,7 +22,7 @@ function splitSentence() {
 
 // Desafio 4
 function concatName() {
-  // seu código aqui
+
 }
 
 // Desafio 5
