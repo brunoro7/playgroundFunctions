@@ -22,9 +22,14 @@ function splitSentence(frase) {
 }
 
 // Desafio 4
-let arrayString = ['Lucas', 'Cassiano', 'Ferraz', 'Paolillo'];
+
 function concatName(arrayString) {
- /**declara a primeira e a ultima e "soma as duas." */
+  
+  let firstIndex = arrayString[0];
+  let lastIndex = arrayString[arrayString.length-1];
+  let fullConcat = (lastIndex + ", " + firstIndex);
+  
+  return fullConcat
 }
 
 // Desafio 5
