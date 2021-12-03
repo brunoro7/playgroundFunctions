@@ -40,16 +40,14 @@ function footballPoints(wins, ties) {
 
 // Desafio 6
 function highestCount(arrayNum) {
-  
-  
-  let maxNum = [];
-  let somaMaxNum = 0;
-
+   
+  let maxNum = -100;
   for(let i=0; i<arrayNum.length; i++){
     if(arrayNum[i]>maxNum){
       maxNum = arrayNum[i];
     }
   }
+  let somaMaxNum = 0;
   for(let iGeral=0; iGeral<arrayNum.length; iGeral++){
     if(arrayNum[iGeral]===maxNum){
       somaMaxNum = somaMaxNum +1;      
@@ -57,7 +55,6 @@ function highestCount(arrayNum) {
   }
   return somaMaxNum
 }
-console.log(highestCount([9, 1, 2, 3, 9, 5, 7]))
 
 // Desafio 7
 function catAndMouse() {
