@@ -85,11 +85,24 @@ function fizzBuzz(arrayDeNum) {
 
 
 // Desafio 9
-function encode() {
-  // seu código aqui
+function encode(frase) {
+
+case "a" = 1
+case "e" = 2
+case "i" = 3
+case "o" = 4
+case "u" = 5
+
+
 }
 function decode() {
-  // seu código aqui
+
+case "1" = "a"
+case "2" = "e"
+case "3" = "i"
+case "4" = "o"
+case "5" = "u"
+
 }
 
 module.exports = {
