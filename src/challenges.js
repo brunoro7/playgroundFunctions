@@ -87,23 +87,32 @@ function fizzBuzz(arrayDeNum) {
 // Desafio 9
 function encode(frase) {
 
-case "a" = 1
-case "e" = 2
-case "i" = 3
-case "o" = 4
-case "u" = 5
+  let splitedFrase = frase.split("");
 
+/**  case "a" = 1
+  case "e" = 2
+  case "i" = 3
+  case "o" = 4
+  case "u" = 5
+*/
 
+  return splitedFrase
 }
-function decode() {
+console.log(encode("hi there!"))
 
-case "1" = "a"
-case "2" = "e"
-case "3" = "i"
-case "4" = "o"
-case "5" = "u"
+function decode(modifiedFrase) {
+  let joinedFrase = modifiedFrase.join("");
 
+/**  case "1" = "a"
+  case "2" = "e"
+  case "3" = "i"
+  case "4" = "o"
+  case "5" = "u"
+*/
+
+  return joinedFrase
 }
+console.log(decode(encode("hi there!")))
 
 module.exports = {
   calcArea,
