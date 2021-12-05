@@ -58,7 +58,7 @@ function highestCount(arrayNum) {
 
 // Desafio 7
 function catAndMouse() {
-  // seu código aqui
+
 }
 
 // Desafio 8
