@@ -10,22 +10,28 @@ function techList(arrayTech, nome) {
   tecnologia.tech = arrayTech.sort();
   
   let objList = [];
+  let arrayTechVazio = "";
   let cadaTech = [];
-  for (let i=0; i<arrayTech.length; i++){
-    if(){
 
+  if(arrayTech.length<=0){
+    arrayTechVazio = "Vazio!";
+    
+    return arrayTechVazio
+  }
+
+  else{
+    for (let i=0; i<arrayTech.length; i++){
+      objList.push(cadaTech.tecnologia = {
+        tech: arrayTech[i],
+        name: nome,
+      });
     }
-    else{objList.push(cadaTech.tecnologia = {
-      tech: arrayTech[i],
-      name: nome,
-    });
-    }
+    return objList
   };
 
-    return objList
 }
 
-console.log(techList(["React", "Jest", "HTML", "CSS", "JavaScript"], "Lucas"))
+
 
 // Desafio 11
 function generatePhoneNumber() {
