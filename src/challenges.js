@@ -74,10 +74,10 @@ function catAndMouse(mouse, cat1, cat2) {
     return cat1Wins
   }
   else{
+    
     return mouseWins
   }
 }
-
 
 // Desafio 8
 function fizzBuzz(arrayDeNum) {
@@ -100,7 +100,6 @@ function fizzBuzz(arrayDeNum) {
   }
   return result;
 }
-
 
 // Desafio 9
 function encode(frase) {
